@@ -5,5 +5,7 @@ SlugSharp is a simple slug generator.
 
 Usage
 =====
-    string text = "SlugSharp is a simple slug generator.";
-    string slug = Slug.CreateFrom(text); // "slugsharp-is-a-simple-slug-generator"
+```csharp
+string text = "SlugSharp is a simple slug generator.";
+string slug = Slug.CreateFrom(text); // "slugsharp-is-a-simple-slug-generator"
+```
