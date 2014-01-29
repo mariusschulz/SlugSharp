@@ -1,7 +1,7 @@
 ﻿namespace SlugSharp
 open SlugTextSanitizer
 
-type Slug() = 
+type Slug = 
     static member CreateFrom(input) =
         input
             |> trim
