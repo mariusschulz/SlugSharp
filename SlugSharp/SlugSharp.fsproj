@@ -42,7 +42,6 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SlugTextSanitizer.fs" />
     <Compile Include="Slug.fs" />
   </ItemGroup>
   <PropertyGroup>
